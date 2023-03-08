@@ -1,40 +1,31 @@
----
-layout: page
-title: Introduction
----
+# Gas Station Administration Dashboard
 
-## Quick start
-There are multiple ways to install AdminLTE.
+This is the dashboard for the gas station administration. It is built using the AdminLTE theme and includes a measurement management system in compliance with the ISO 10012:2003 standard.
 
-### Download & Changelog:
-Always Recommended to download from GitHub latest release [AdminLTE 3](https://github.com/ColorlibHQ/AdminLTE/releases/latest) for bug free and latest features.\
-Visit the [releases](https://github.com/ColorlibHQ/AdminLTE/releases) page to view the changelog.\
-Legacy Releases are [AdminLTE 2](https://github.com/ColorlibHQ/AdminLTE/releases/tag/v2.4.18) / [AdminLTE 1](https://github.com/ColorlibHQ/AdminLTE/releases/tag/1.3.1).
+## Features
 
-## Stable release
-### Grab from [jsdelivr](https://www.jsdelivr.com/package/npm/admin-lte) CDN:
-_**Important Note**: You needed to add separately cdn links for plugins in your project._
-```html
-<script src="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/js/adminlte.min.js"></script>
-```
-```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/css/adminlte.min.css">
-```
-### Using The Command Line:
-_**Important Note**: To install it via npm/Yarn, you need at least Node.js 14 or higher._
-#### Via npm
-```bash
-npm install admin-lte@^3.2 --save
-```
-#### Via Yarn
-```bash
-yarn add admin-lte@^3.2
-```
-#### Via Composer
-```bash
-composer require "almasaeed2010/adminlte=~3.2"
-```
-#### Via Git
-```bash
-git clone https://github.com/ColorlibHQ/AdminLTE.git
-```
+- Dashboard: Provides an overview of the gas station's performance, including total customers and sales.
+- Customers: Displays information about the gas station's customers, including their names, contact information, and loyalty status.
+- Transactions: Allows the gas station staff to manage transactions, including payments, refunds, and cancellations.
+- Reports: Provides detailed reports on the gas station's performance, including sales by day, week, or month.
+
+## Measurement Management System
+
+The gas station complies with the ISO 10012:2003 standard for measurement management, calibration, and traceability. All measurements are accurate and reliable, and the gas station has established policies and procedures for ensuring the quality of its measurements.
+
+- Measurement policy: The gas station has a policy that outlines its approach to measurement management and the quality of its measurements.
+- Measurement procedures: The gas station has established procedures for performing measurements, including calibrations, and for ensuring that all measurements are traceable to national or international standards.
+- Calibration and traceability: The gas station regularly calibrates its measurement equipment and ensures that all measurements are traceable to national or international standards.
+
+## How to Use
+
+To use the dashboard, simply navigate to the desired section using the sidebar menu. From there, you can view, edit, and manage data related to customers, transactions, and reports.
+
+## Credits
+
+This dashboard was built using the AdminLTE theme, an open-source template based on the Bootstrap 3 framework. Credit for the theme goes to the original creators of AdminLTE.
+
+## Contact
+
+If you have any questions or feedback, please contact us at gasstationadmin@example.com.
+
